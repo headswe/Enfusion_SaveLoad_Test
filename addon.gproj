@@ -1,0 +1,8 @@
+GameProject {
+ ID "TMFR"
+ GUID "596912EC9FFE3BE6"
+ TITLE "TMFR"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

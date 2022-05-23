@@ -1,0 +1,131 @@
+SCR_GameModeEditor : "{D2DE7F43D48A3667}Prefabs/MP/Modes/Editor/GameMode_Editor.et" {
+ ID "56B2B479C6B96951"
+ components {
+  TMFR_SaveLoadComponent "{5969644C29123E90}" {
+   Enabled 1
+   m_Struct SCR_MissionStruct "{5969644C26383E35}" {
+    m_EditorStruct SCR_EditorStruct "{5969644C2757E6A3}" {
+     m_AttributeList SCR_EditorAttributeList "{5969644C27056D85}" {
+      m_aAttributes {
+       SCR_TimePresetsEditorAttribute "{5969644DA68D3BB0}" {
+       }
+       SCR_DaytimeEditorAttribute "{5969644DA2540422}" {
+       }
+       SCR_DateEditorAttribute "{5969644DBCE303CD}" {
+       }
+       SCR_TimeAdvancementEditorAttribute "{5969644DBFB6DC82}" {
+       }
+       SCR_DayDurationEditorAttribute "{5969644DBB5C966F}" {
+       }
+       SCR_AutomatedWeatherEditorAttribute "{5969644DC92BDD41}" {
+       }
+       SCR_WeatherInstantEditorAttribute "{5969644DED8C1FE5}" {
+       }
+       SCR_WeatherInstantTransitionTimeEditorAttribute "{5969644DE882836D}" {
+       }
+       SCR_WeatherUseAdvancedEditorAttribute "{5969644DE0638B51}" {
+       }
+       SCR_WindAutomaticEditorAttribute "{5969644DE30EFEBE}" {
+       }
+       SCR_WindSpeedEditorAttribute "{5969644DF818A475}" {
+       }
+       SCR_WindDirectionEditorAttribute "{5969644DFAF15C9B}" {
+       }
+       SCR_EntityFactionEditorAttribute "{5969644DF520060E}" {
+       }
+       SCR_PlayableFactionEditorAttribute "{5969644D0C73FE51}" {
+       }
+       SCR_SetEnableDamageVehicleEditorAttribute "{5969644D0ABE0BBB}" {
+       }
+       SCR_SetEnableDamageCharacterEditorAttribute "{5969644D2CDE5C48}" {
+       }
+       SCR_SetEnableDamageOtherEditorAttribute "{5969644D2F99DE42}" {
+       }
+       SCR_HealthVehicleEditorAttribute "{5969644D3E81FB8D}" {
+       }
+       SCR_HealthCharacterEditorAttribute "{5969644D39B8A79A}" {
+       }
+       SCR_HealthOtherEditorAttribute "{5969644D34ECD9AF}" {
+       }
+       SCR_FuelEditorAttribute "{5969644D4FEAE914}" {
+       }
+       SCR_BloodEditorAttribute "{5969644D4AA55481}" {
+       }
+       SCR_BuildingCostMultiplierEditorAttribute "{5969644D4670BC45}" {
+       }
+       SCR_BuildingRefundMultiplierEditorAttribute "{5969644D508EC4F0}" {
+       }
+       SCR_PlayableFactionsEditorAttribute "{5969644D6492D058}" {
+       }
+       SCR_KillfeedEnabledEditorAttribute "{5969644D614E184C}" {
+       }
+       SCR_RespawnEnabledEditorAttribute "{5969644E86F7BBBC}" {
+       }
+       SCR_SpawnAtPlayersEditorAttribute "{5969644E828D3C41}" {
+       }
+       SCR_RespawnTimeEditorAttribute "{5969644E97CC5BB9}" {
+       }
+       SCR_ArsenalWeaponsEditorAttribute "{5969644EA1BFE46A}" {
+       }
+       SCR_ArsenalAmmunitionModeAttribute "{5969644EBF3E1313}" {
+       }
+       SCR_ArsenalEquipmentEditorAttribute "{5969644EB9844B4D}" {
+       }
+       SCR_ArsenalOutfitEditorAttribute "{5969644EB4DDC7FB}" {
+       }
+       SCR_FactionLoadoutWeaponsEditorAttribute "{5969644EC4F67FFA}" {
+       }
+       SCR_FactionLoadoutEquipmentEditorAttribute "{5969644EDCD1F23D}" {
+       }
+       SCR_FactionLoadoutOutfitEditorAttribute "{5969644ED432E2D7}" {
+       }
+       SCR_TaskTextMoveEditorAttribute "{5969644EED0382A2}" {
+       }
+       SCR_TaskTextAttackEditorAttribute "{5969644EE8048051}" {
+       }
+       SCR_TaskTextDefendEditorAttribute "{5969644EEB6D14FB}" {
+       }
+       SCR_TaskTextCustomEditorAttribute "{5969644EE5340E16}" {
+       }
+       SCR_SetTaskCompletionAutomaticEditorAttribute "{5969644EE03FB599}" {
+       }
+       SCR_GameOverTypeEditorAttribute "{5969644EE3FD2F05}" {
+       }
+       SCR_GameOverFactionsEditorAttribute "{5969644EF99FC532}" {
+       }
+       SCR_AmbientSoundToggleEditorAttribute "{5969644EF158E159}" {
+       }
+       SCR_ArsenalFactionEditorAttribute "{5969644E1B134692}" {
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ m_GameMasterTarget EVERYBODY
+ {
+  SCR_FactionManager FactionManager_Editor1 : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et" {
+   ID "596912ECA75AE602"
+  }
+  RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
+   ID "596912ECA75AE600"
+  }
+  ScriptedChatEntity : "{F69BC912AC8236F9}Prefabs/MP/ScriptedChatEntity.et" {
+   ID "596912ECA75A9327"
+  }
+  GarbageManager {
+   ID "596912ECA75D7A3B"
+   coords 0 0 0
+   CharacterLifetime 600
+   VehicleCollect 0
+   ItemLifetime 300
+  }
+  SCR_BaseTaskManager : "{87208DAD6F3C0DE2}Prefabs/MP/Managers/Tasks/TaskManager_Editor.et" {
+   ID "596912ECA75D7A3A"
+  }
+  SCR_LoadoutManager : "{B54D08AEA74A5354}Prefabs/MP/Managers/Loadouts/LoadoutManager_Editor.et" {
+   ID "596912ECA75D0248"
+  }
+ }
+}

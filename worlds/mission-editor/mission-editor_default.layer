@@ -1,0 +1,29 @@
+SCR_AIWorld : "{791AB79CB88F5325}Prefabs/AI/TMFR_AIWorld.et" {
+ coords 0.132 0 0.264
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 4926.701 34.279 10717.344
+}
+TagManager : "{2FA9E172CAB1857A}Prefabs/MP/Managers/TagManager.et" {
+ coords -0.3 0 20.028
+}
+ProjectileSoundsManager : "{B4DA8B0024536625}Prefabs/World/Game/ProjectileSoundsManager.et" {
+ coords 0.263 0 8.868
+}
+SCR_GameModeEditor TMFR_GameMode_Editor1 : "{DA3986AF1B5032B8}Prefabs/MP/Modes/Editor/TMFR_GameMode_Editor.et" {
+ coords 4807.998 63.474 6333.107
+}
+SCR_EditorSettingsEntity {
+ coords 0.631 0 9.055
+ m_EditorManagerPrefab "{2632B50131544FEF}Prefabs/Editor/TMFR_EditorManager.et"
+ m_bOverrideBaseModes 1
+ m_BaseModes EDIT
+}
+HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+ coords -1.115 0 19.024
+}
+SCR_MusicManager : "{22BC5D2DAB7D5E0C}Prefabs/Sounds/Music/MusicManager_Everon_Editor.et" {
+}
+SCR_MPDestructionManager : "{9BB369F2803C6F71}Prefabs/MP/MPDestructionManager.et" {
+ coords 0.423 0 8.585
+}

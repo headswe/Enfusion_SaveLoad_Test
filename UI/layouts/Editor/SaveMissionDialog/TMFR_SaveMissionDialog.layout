@@ -1,0 +1,231 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ Slot FrameWidgetSlot "{596E55251F616B6C}" {
+  Anchor 0 0 1 1
+  PositionX 0
+  OffsetLeft 0
+  PositionY 0
+  OffsetTop 0
+  SizeX -1820
+  OffsetRight 0
+  SizeY -1050
+  OffsetBottom 0
+ }
+ components {
+  TMFR_SaveMissionDialogComponent "{596E5521304136D5}" {
+  }
+ }
+ {
+  HorizontalLayoutWidgetClass "{596E552510E8C8EE}" {
+   Name "HorizontalLayout0"
+   Slot FrameWidgetSlot "{596D750BD518A1A1}" {
+    Anchor 0 0 1 1
+    PositionX 1920
+    OffsetLeft 0
+    PositionY 1080
+    OffsetTop 0
+    SizeX -1820
+    OffsetRight 0
+    SizeY -1050
+    OffsetBottom 0
+   }
+   {
+    OverlayWidgetClass "{596E552510E8C8EF}" {
+     Name "Overlay0"
+     Slot LayoutSlot "{596D750BD5162C0D}" {
+      SizeMode Fill
+     }
+     {
+      ImageWidgetClass "{596E552510E8C8EC}" {
+       Name "Background"
+       Slot OverlayWidgetSlot "{56EEDE05C871C02C}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+       }
+       Color 0.01 0.01 0.01 1
+      }
+      VerticalLayoutWidgetClass "{596E552510E8C8ED}" {
+       Name "VerticalLayout0"
+       Slot OverlayWidgetSlot "{596D750B95B5727A}" {
+        HorizontalAlign 3
+        VerticalAlign 3
+       }
+       {
+        OverlayWidgetClass "{596E552510E8C8E2}" {
+         Name "Overlay0"
+         Slot LayoutSlot "{596D750B0A4D4F4B}" {
+         }
+         {
+          ImageWidgetClass "{596E552510EF5454}" {
+           Name "Background"
+           Slot OverlayWidgetSlot "{56EEDE05C871C02C}" {
+            HorizontalAlign 3
+            VerticalAlign 3
+            Padding 0 0 0 0
+           }
+           Color 0.002 0.25 0.06 1
+          }
+          TextWidgetClass "{596E552510EF5455}" {
+           Name "Text0"
+           Slot OverlayWidgetSlot "{596D750B2DB31C9D}" {
+            HorizontalAlign 3
+            VerticalAlign 3
+            Padding 10 10 0 10
+           }
+           "Z Order" 33
+           Text "Save Mission"
+           "Font Size" 43
+           "Vertical Alignment" Center
+           "Line Spacing" 12
+          }
+         }
+        }
+        VerticalLayoutWidgetClass "{596E552510EF5452}" {
+         Name "TableBody"
+         Slot LayoutSlot "{596D750A6F24FA6C}" {
+          Padding 20 0 0 0
+          SizeMode Fill
+         }
+         {
+          VerticalLayoutWidgetClass "{596E5526B9A897B1}" {
+           Name "MissionNameControl"
+           Slot LayoutSlot "{596E5526B9A89796}" {
+           }
+           {
+            TextWidgetClass "{596E55253423B64F}" {
+             Name "Text0"
+             Slot LayoutSlot "{596E55253423B6B6}" {
+             }
+             Text "Misson name"
+             "Font Size" 34
+            }
+            OverlayWidgetClass "{596E55256EBCA745}" {
+             Name "Overlay0"
+             Slot LayoutSlot "{596E55256EBCA7A5}" {
+              Padding 10 10 10 10
+             }
+             {
+              ImageWidgetClass "{596E55268CA290BF}" {
+               Name "Background"
+               Slot OverlayWidgetSlot "{56EEDE05C871C02C}" {
+                HorizontalAlign 3
+                VerticalAlign 3
+               }
+              }
+              EditBoxWidgetClass "{596E552559AE8031}" {
+               Name "MissionNameEditBox"
+               Slot OverlayWidgetSlot "{596E5526893E1CA2}" {
+                HorizontalAlign 3
+                VerticalAlign 3
+                Padding 10 10 10 10
+               }
+               Color 0 0 0 1
+               text "Test"
+               "Font Size" 34
+               "Use placeholder text" 1
+              }
+             }
+            }
+           }
+          }
+          VerticalLayoutWidgetClass "{596E5526CB7D377B}" {
+           Name "MissionFileNameControl"
+           Slot LayoutSlot "{596E5526B9A89796}" {
+           }
+           {
+            TextWidgetClass "{596E5526CB7D3774}" {
+             Name "Text0"
+             Slot LayoutSlot "{596E55253423B6B6}" {
+             }
+             Text "Misson filename"
+             "Font Size" 34
+            }
+            OverlayWidgetClass "{596E5526CB7D3775}" {
+             Name "Overlay0"
+             Slot LayoutSlot "{596E55256EBCA7A5}" {
+              Padding 10 10 10 10
+             }
+             {
+              ImageWidgetClass "{596E5526CB7D3776}" {
+               Name "Background"
+               Slot OverlayWidgetSlot "{56EEDE05C871C02C}" {
+                HorizontalAlign 3
+                VerticalAlign 3
+               }
+              }
+              EditBoxWidgetClass "{596E5526CB7D3777}" {
+               Name "MissionFileNameEditBox"
+               Slot OverlayWidgetSlot "{596E5526893E1CA2}" {
+                HorizontalAlign 3
+                VerticalAlign 3
+                Padding 10 10 10 10
+               }
+               Color 0 0 0 1
+               text "mission_name"
+               "Font Size" 34
+               "Use placeholder text" 1
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+        HorizontalLayoutWidgetClass "{596E552510EF5453}" {
+         Name "HorizontalLayout0"
+         Slot LayoutSlot "{596E000BD75FBB21}" {
+          Padding 10 10 10 10
+         }
+         "Fill Origin" Right
+         {
+          ButtonWidgetClass "{596E552510EF544C}" {
+           Name "SaveButton"
+           Slot LayoutSlot "{596E000BEE3AF003}" {
+            Padding 20 0 0 0
+           }
+           Color 0.002 0.25 0.06 1
+           {
+            TextWidgetClass "{596E552510EF544D}" {
+             Name "SaveButtonText"
+             Slot ButtonWidgetSlot "{596E000BFADEB3AD}" {
+              Padding 30 10 30 10
+             }
+             components {
+              TMFR_SaveMissionSaveButtonComponent "{596E55214D696C6F}" {
+              }
+             }
+             Text "Save"
+             "Font Size" 29
+            }
+           }
+          }
+          ButtonWidgetClass "{596E5526FAAC8705}" {
+           Name "CloseButton0"
+           Slot LayoutSlot "{596E000BEE3AF003}" {
+           }
+           Color 0.002 0.25 0.06 1
+           components {
+            TMFR_SaveMissionCloseButtonComponent "{596E55214A20B796}" {
+            }
+           }
+           {
+            TextWidgetClass "{596E5526FAAC8706}" {
+             Name "CloseButtonText"
+             Slot ButtonWidgetSlot "{596E000BFADEB3AD}" {
+              Padding 30 10 30 10
+             }
+             Text "Close"
+             "Font Size" 29
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,32 @@
+HorizontalLayoutWidgetClass {
+ Name "rootFrame"
+ Slot LayoutSlot "{596E002D8F2288F8}" {
+  Padding 10 10 10 10
+ }
+ {
+  TextWidgetClass "{596D7A51F13A93FC}" {
+   Name "MissionName"
+   Slot LayoutSlot "{596D7A51F13A931D}" {
+    SizeMode Fill
+   }
+   "Vertical Alignment" Center
+  }
+  ButtonWidgetClass "{596D7A511412B292}" {
+   Name "LoadButton"
+   Slot LayoutSlot "{596D7A511412B2BC}" {
+    SizeMode Fill
+    FillWeight 0.2
+   }
+   Color 0.002 0.25 0.06 1
+   {
+    TextWidgetClass "{596E002D8407673D}" {
+     Name "Text0"
+     Slot ButtonWidgetSlot "{596E002D8407675E}" {
+      Padding 10 10 10 10
+     }
+     Text "Load"
+    }
+   }
+  }
+ }
+}

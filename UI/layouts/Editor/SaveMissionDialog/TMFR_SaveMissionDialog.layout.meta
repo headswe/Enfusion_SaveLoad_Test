@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{5A4229D1E23B06A7}UI/layouts/Editor/SaveMissionDialog/TMFR_SaveMissionDialog.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+ }
+}
