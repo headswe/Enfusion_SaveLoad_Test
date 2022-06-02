@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{CD14D67DA043C6DB}UI/layouts/Editor/Modes/TMFR_Mode_MissionEditor.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+ }
+}

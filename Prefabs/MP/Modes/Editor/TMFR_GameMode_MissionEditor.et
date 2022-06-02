@@ -1,0 +1,40 @@
+SCR_GameModeEditor : "{D2DE7F43D48A3667}Prefabs/MP/Modes/Editor/GameMode_Editor.et" {
+ ID "56B2B479C6B96951"
+ components {
+  SCR_SaveLoadComponent "{58FA739CBE3E9FC5}" {
+   Enabled 0
+  }
+  TMFR_SaveLoadComponent "{59749449823943EC}" {
+   m_Struct TMFR_MissionStruct "{59749449D281B249}" {
+    m_EditorStruct TMFR_EditorStruct "{59749449EC84B26E}" {
+     m_AttributeList SCR_EditorAttributeList "{59749449EC6F5BB2}" : "{F3D6C6D25642352C}Configs/Editor/AttributeLists/Edit.conf" {
+     }
+    }
+   }
+  }
+ }
+ {
+  SCR_FactionManager FactionManager_Editor1 : "{4A188E44289B9A50}Prefabs/MP/Managers/Factions/FactionManager_Editor.et" {
+   ID "5974944E62E0CF9E"
+  }
+  RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
+   ID "5974944E62E08083"
+  }
+  ScriptedChatEntity : "{F69BC912AC8236F9}Prefabs/MP/ScriptedChatEntity.et" {
+   ID "5974944E62E0809D"
+  }
+  GarbageManager {
+   ID "5974944E62E06DDA"
+   coords 0 0 0
+   CharacterLifetime 600
+   VehicleCollect 0
+   ItemLifetime 300
+  }
+  SCR_BaseTaskManager : "{87208DAD6F3C0DE2}Prefabs/MP/Managers/Tasks/TaskManager_Editor.et" {
+   ID "5974944E62E06DD9"
+  }
+  SCR_LoadoutManager : "{B54D08AEA74A5354}Prefabs/MP/Managers/Loadouts/LoadoutManager_Editor.et" {
+   ID "5974944E62E0215D"
+  }
+ }
+}

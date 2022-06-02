@@ -1,0 +1,9 @@
+SCR_GameModeEditor TMFR_GameMode_MissionEditor1 : "{01B46AC5E97200F0}Prefabs/MP/Modes/Editor/TMFR_GameMode_MissionEditor.et" {
+ coords 128 1 129
+ {
+  SCR_EditorSettingsEntity {
+   coords -14.668 -1.001 39.763
+   m_EditorManagerPrefab "{2632B50131544FF0}Prefabs/Editor/TMFR_EditorManager.et"
+  }
+ }
+}

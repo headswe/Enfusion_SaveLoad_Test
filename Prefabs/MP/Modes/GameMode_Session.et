@@ -1,0 +1,17 @@
+SCR_BaseGameMode : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
+ ID "56B2B479C6B96951"
+ components {
+  SCR_ArsenalManagerComponent "{5974EA65B2562AF8}" {
+  }
+  SCR_RespawnBriefingComponent "{5974EA65A8D83C1E}" {
+  }
+  SCR_RespawnMenuHandlerComponent "{5974EA650141948E}" {
+  }
+  SCR_SaveLoadComponent "{58FA739CBE3E9FC5}" {
+   Enabled 0
+  }
+  TMFR_SaveLoadComponent "{5974EA6597C64CC4}" {
+  }
+ }
+ coords 3.309 0 9.935
+}

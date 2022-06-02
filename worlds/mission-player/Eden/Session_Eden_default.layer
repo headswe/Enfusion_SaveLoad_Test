@@ -1,0 +1,26 @@
+SCR_MapEntity MapEntity_Everon1 : "{E1B88C66BF6CA1F9}Prefabs/World/Game/MapEntity_Everon.et" {
+ coords 0 0 0
+}
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFile "{AD5F99CD7C59D5E0}worlds/GameMaster/Navmeshes/GM_Eden.nmn"
+   }
+  }
+ }
+ coords 0 0 0
+}
+SCR_GameModeEditor TMFR_GameMode_MissionEditor1 : "{01B46AC5E97200F0}Prefabs/MP/Modes/Editor/TMFR_GameMode_MissionEditor.et" {
+ m_bAutoInitEditor 0
+ m_GameMasterTarget NOBODY
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 0.179 0 -0.42
+}
+SCR_EditorSettingsEntity {
+ m_EditorManagerPrefab "{2632B50131544FF0}Prefabs/Editor/TMFR_EditorManager.et"
+}
+HitRegistrationManager HitRegManager1 : "{0EDA3D48791120DD}Prefabs/MP/HitRegManager.et" {
+ coords 0.402 0 -0.26
+}

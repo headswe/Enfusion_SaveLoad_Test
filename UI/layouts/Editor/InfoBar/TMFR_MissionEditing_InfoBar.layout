@@ -1,0 +1,541 @@
+FrameWidgetClass {
+ Name "InfoBar"
+ Clipping False
+ components {
+  TMFR_ModeInfoBarMissionEditorUIComponent "{5974BD5AA6CF8EE0}" {
+  }
+ }
+ {
+  OverlayWidgetClass "{5974944D4E273E5D}" : "{05A0C17F2B5F0DF7}UI/layouts/Editor/InfoBar/InfoBar_Background.layout" {
+   Name "InfoBar_Background0"
+   Slot FrameWidgetSlot "{54D8A15F087694E7}" {
+    OffsetLeft 0
+    OffsetTop 0
+    OffsetRight 0
+    SizeY 1080
+    OffsetBottom -1080
+   }
+   {
+    VerticalLayoutWidgetClass "{565AF573D071D613}" {
+     Prefab "{565AF573D071D613}"
+     {
+      ImageWidgetClass "{565AF573E25CEC9E}" {
+       Prefab "{565AF573E25CEC9E}"
+       Slot LayoutSlot "{565AF573E25CECCA}" {
+        Padding 0 -1 0 0
+       }
+      }
+     }
+    }
+    ImageWidgetClass "{54D8A15F268E8E25}" {
+     Prefab "{54D8A15F268E8E25}"
+     Slot OverlayWidgetSlot "{55CAC6B807CDBBBE}" {
+      Padding 256 0 256 0
+     }
+     Texture "{86FB66F2EA2D8BE0}UI/Textures/Editor/Effects/Effect_Gradient_Wave.edds"
+     Image ""
+     Size 128 3
+    }
+    HorizontalLayoutWidgetClass "{5630B46799D87CED}" {
+     Prefab "{5630B46799D87CED}"
+     Slot OverlayWidgetSlot "{5630B46799D87CC3}" {
+      Padding 0 0 0 0
+     }
+     "Fill Origin" Center
+     {
+      SizeLayoutWidgetClass "{5974944D4E273E5F}" {
+       Name "ItemLeft"
+       Slot LayoutSlot "{5630FB143A310C25}" {
+        Padding 0 0 0 0
+       }
+       AllowWidthOverride 1
+       WidthOverride 512
+       AllowHeightOverride 1
+       HeightOverride 72
+       {
+        HorizontalLayoutWidgetClass "{5974944D5EF817DE}" {
+         Name "HorizontalLayout0"
+         Slot AlignableSlot "{5974944D5EF817E8}" {
+          HorizontalAlign 0
+          VerticalAlign 0
+          Padding 24 24 0 0
+         }
+         {
+          OverlayWidgetClass "{5974944D4E273E5E}" {
+           Name "OverlaySpace"
+           Slot LayoutSlot "{5974944D5EE25247}" {
+           }
+           {
+            OverlayWidgetClass "{5974944D4E273E51}" : "{0665B25CB7ECBFA3}UI/layouts/Editor/Effects/Effect_Background_Rounded.layout" {
+             Name "Effect_Background_Rounded"
+             Slot OverlayWidgetSlot "{58D10AD1A4F990DF}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+             }
+             {
+              ImageWidgetClass "{58D10AD484F8513D}" {
+               Prefab "{58D10AD484F8513D}"
+               Opacity 0.5
+              }
+             }
+            }
+            HorizontalLayoutWidgetClass "{5974944D4E273E50}" {
+             Name "Style"
+             Slot OverlayWidgetSlot "{571102F29E5BB462}" {
+             }
+             {
+              ButtonWidgetClass "{5974944D4E273E53}" : "{08CF3B69CB1ACBC4}UI/layouts/WidgetLibrary/Buttons/WLib_NavigationButton.layout" {
+               Name "OpenPauseMenuButton"
+               Slot LayoutSlot "{570F0418C5B5F91A}" {
+                Padding -2 -2 -2 -2
+               }
+               components {
+                SCR_NavigationButtonComponent "{5474BAC5DBCF129A}" {
+                 m_sLabel "#AR-DeployMenu_PauseButton"
+                 m_sActionName "MenuOpen"
+                }
+                ButtonActionComponent "{5642EAED93D8D64B}" {
+                }
+               }
+               {
+                SizeLayoutWidgetClass "{5562AD435529FB36}" {
+                 Prefab "{5562AD435529FB36}"
+                 {
+                  OverlayWidgetClass "{000000005E70868E}" {
+                   Prefab "{000000005E70868E}"
+                   {
+                    ImageWidgetClass "{0000000054A64973}" {
+                     Prefab "{0000000054A64973}"
+                     "Is Visible" 0
+                     Color 0 0 0 1
+                     Rotation 180
+                     Image ""
+                     Size 12 256
+                    }
+                    PanelWidgetClass "{5562AD426F7EB8C6}" {
+                     Prefab "{5562AD426F7EB8C6}"
+                     Slot OverlayWidgetSlot "{5562AD426F7EB8E7}" {
+                      Padding 0 0 0 0
+                     }
+                    }
+                    HorizontalLayoutWidgetClass "{00000000E3602307}" {
+                     Prefab "{00000000E3602307}"
+                     Slot OverlayWidgetSlot "{547290FBCA5E9358}" {
+                      Padding 10 10 10 10
+                     }
+                     {
+                      RichTextWidgetClass "{00000000B0FD85CE}" {
+                       Prefab "{00000000B0FD85CE}"
+                       Slot LayoutSlot "{547AD5678196CDF0}" {
+                       }
+                       "Font Size" 16
+                       "Min Font Size" 16
+                      }
+                      RichTextWidgetClass "{00000000DB061E92}" {
+                       Prefab "{00000000DB061E92}"
+                       Slot LayoutSlot "{547AD5678196CD13}" {
+                        Padding 5 0 12 0
+                       }
+                       "Font Size" 16
+                       "Min Font Size" 16
+                       FontProperties FontProperties "{546AF489DFD25402}" {
+                        ShadowSize 10
+                        ShadowOpacity 0.7
+                       }
+                      }
+                     }
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+          OverlayWidgetClass "{5974944C6C74DD41}" {
+           Name "OverlaySpace0"
+           Slot LayoutSlot "{5974944D5EE25247}" {
+           }
+           {
+            OverlayWidgetClass "{5974944C6C74DD43}" : "{0665B25CB7ECBFA3}UI/layouts/Editor/Effects/Effect_Background_Rounded.layout" {
+             Name "Effect_Background_Rounded"
+             Slot OverlayWidgetSlot "{58D10AD1A4F990DF}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+             }
+             {
+              ImageWidgetClass "{58D10AD484F8513D}" {
+               Prefab "{58D10AD484F8513D}"
+               Opacity 0.5
+              }
+             }
+            }
+            HorizontalLayoutWidgetClass "{5974944C6C74DD42}" {
+             Name "Style"
+             Slot OverlayWidgetSlot "{571102F29E5BB462}" {
+             }
+             {
+              ButtonWidgetClass "{5974944C6C74DD45}" : "{08CF3B69CB1ACBC4}UI/layouts/WidgetLibrary/Buttons/WLib_NavigationButton.layout" {
+               Name "OpenSaveMenuButton"
+               Slot LayoutSlot "{570F0418C5B5F91A}" {
+                Padding -2 -2 -2 -2
+               }
+               components {
+                SCR_NavigationButtonComponent "{5474BAC5DBCF129A}" {
+                 m_sLabel "Save"
+                 m_sActionName "SaveMissionMenu"
+                }
+                ButtonActionComponent "{5642EAED93D8D64B}" {
+                }
+               }
+               {
+                SizeLayoutWidgetClass "{5562AD435529FB36}" {
+                 Prefab "{5562AD435529FB36}"
+                 {
+                  OverlayWidgetClass "{000000005E70868E}" {
+                   Prefab "{000000005E70868E}"
+                   {
+                    ImageWidgetClass "{0000000054A64973}" {
+                     Prefab "{0000000054A64973}"
+                     "Is Visible" 0
+                     Color 0 0 0 1
+                     Rotation 180
+                     Image ""
+                     Size 12 256
+                    }
+                    PanelWidgetClass "{5562AD426F7EB8C6}" {
+                     Prefab "{5562AD426F7EB8C6}"
+                     Slot OverlayWidgetSlot "{5562AD426F7EB8E7}" {
+                      Padding 0 0 0 0
+                     }
+                    }
+                    HorizontalLayoutWidgetClass "{00000000E3602307}" {
+                     Prefab "{00000000E3602307}"
+                     Slot OverlayWidgetSlot "{547290FBCA5E9358}" {
+                      Padding 10 10 10 10
+                     }
+                     {
+                      RichTextWidgetClass "{00000000B0FD85CE}" {
+                       Prefab "{00000000B0FD85CE}"
+                       Slot LayoutSlot "{547AD5678196CDF0}" {
+                       }
+                       "Inherit Color" 1
+                       "Font Size" 16
+                       "Min Font Size" 16
+                      }
+                      RichTextWidgetClass "{00000000DB061E92}" {
+                       Prefab "{00000000DB061E92}"
+                       Slot LayoutSlot "{547AD5678196CD13}" {
+                        Padding 5 0 12 0
+                       }
+                       "Font Size" 16
+                       "Min Font Size" 16
+                       FontProperties FontProperties "{546AF489DFD25402}" {
+                        ShadowSize 10
+                        ShadowOpacity 0.7
+                       }
+                      }
+                     }
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+          OverlayWidgetClass "{5974944FBE7B45E1}" {
+           Name "OverlaySpace1"
+           Slot LayoutSlot "{5974944D5EE25247}" {
+           }
+           {
+            OverlayWidgetClass "{5974944FBE7B45E0}" : "{0665B25CB7ECBFA3}UI/layouts/Editor/Effects/Effect_Background_Rounded.layout" {
+             Name "Effect_Background_Rounded"
+             Slot OverlayWidgetSlot "{58D10AD1A4F990DF}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+             }
+             {
+              ImageWidgetClass "{58D10AD484F8513D}" {
+               Prefab "{58D10AD484F8513D}"
+               Opacity 0.5
+              }
+             }
+            }
+            HorizontalLayoutWidgetClass "{5974944FBE7B45E2}" {
+             Name "Style"
+             Slot OverlayWidgetSlot "{571102F29E5BB462}" {
+             }
+             {
+              ButtonWidgetClass "{5974944FBE7B45E5}" : "{08CF3B69CB1ACBC4}UI/layouts/WidgetLibrary/Buttons/WLib_NavigationButton.layout" {
+               Name "OpenLoadMenuButton"
+               Slot LayoutSlot "{570F0418C5B5F91A}" {
+                Padding -2 -2 -2 -2
+               }
+               components {
+                SCR_NavigationButtonComponent "{5474BAC5DBCF129A}" {
+                 m_sLabel "Load"
+                 m_sActionName "LoadMissionMenu"
+                }
+                ButtonActionComponent "{5642EAED93D8D64B}" {
+                }
+               }
+               {
+                SizeLayoutWidgetClass "{5562AD435529FB36}" {
+                 Prefab "{5562AD435529FB36}"
+                 {
+                  OverlayWidgetClass "{000000005E70868E}" {
+                   Prefab "{000000005E70868E}"
+                   {
+                    ImageWidgetClass "{0000000054A64973}" {
+                     Prefab "{0000000054A64973}"
+                     "Is Visible" 0
+                     Color 0 0 0 1
+                     Rotation 180
+                     Image ""
+                     Size 12 256
+                    }
+                    PanelWidgetClass "{5562AD426F7EB8C6}" {
+                     Prefab "{5562AD426F7EB8C6}"
+                     Slot OverlayWidgetSlot "{5562AD426F7EB8E7}" {
+                      Padding 0 0 0 0
+                     }
+                    }
+                    HorizontalLayoutWidgetClass "{00000000E3602307}" {
+                     Prefab "{00000000E3602307}"
+                     Slot OverlayWidgetSlot "{547290FBCA5E9358}" {
+                      Padding 10 10 10 10
+                     }
+                     {
+                      RichTextWidgetClass "{00000000B0FD85CE}" {
+                       Prefab "{00000000B0FD85CE}"
+                       Slot LayoutSlot "{547AD5678196CDF0}" {
+                       }
+                       "Font Size" 16
+                       "Min Font Size" 16
+                      }
+                      RichTextWidgetClass "{00000000DB061E92}" {
+                       Prefab "{00000000DB061E92}"
+                       Slot LayoutSlot "{547AD5678196CD13}" {
+                        Padding 5 0 12 0
+                       }
+                       "Font Size" 16
+                       "Min Font Size" 16
+                       FontProperties FontProperties "{546AF489DFD25402}" {
+                        ShadowSize 10
+                        ShadowOpacity 0.7
+                       }
+                      }
+                     }
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      SizeLayoutWidgetClass "{5974944D4E273E55}" {
+       Name "ItemCenter"
+       Slot LayoutSlot "{5630FB143A310C25}" {
+        Padding 0 0 0 0
+        SizeMode Fill
+       }
+       AllowWidthOverride 1
+       WidthOverride 256
+       {
+        SizeLayoutWidgetClass "{5974944D4E273E54}" : "{CAD8B8A9068C625E}UI/layouts/Editor/ModeSelection/ModeSelection.layout" {
+         Name "ModeSelection0"
+         Slot AlignableSlot "{565078E56BC9E78F}" {
+          VerticalAlign 0
+         }
+         {
+         }
+        }
+       }
+      }
+      SizeLayoutWidgetClass "{5974944D4E273E49}" {
+       Name "ItemRight"
+       Slot LayoutSlot "{5630FB143A310C25}" {
+        Padding 0 0 0 0
+       }
+       AllowWidthOverride 1
+       WidthOverride 512
+       AllowHeightOverride 1
+       HeightOverride 72
+       {
+        OverlayWidgetClass "{5974944D4E273E48}" {
+         Name "OverlaySpace"
+         Slot AlignableSlot "{56EEB2E8CC3EBB3A}" {
+          HorizontalAlign 2
+          VerticalAlign 0
+          Padding 0 24 24 0
+         }
+         Clipping False
+         {
+          OverlayWidgetClass "{5974944D4E273E4B}" : "{0665B25CB7ECBFA3}UI/layouts/Editor/Effects/Effect_Background_Rounded.layout" {
+           Name "Effect_Background_Rounded"
+           Slot OverlayWidgetSlot "{58D10AD1B0E19910}" {
+            HorizontalAlign 3
+            VerticalAlign 3
+           }
+           {
+            ImageWidgetClass "{58D10AD484F8513D}" {
+             Prefab "{58D10AD484F8513D}"
+             Opacity 0.5
+            }
+           }
+          }
+          HorizontalLayoutWidgetClass "{5974944D4E272DC3}" {
+           Name "Style"
+           Slot OverlayWidgetSlot "{570F04198C429767}" {
+            Padding 0 0 0 0
+           }
+           {
+            ButtonWidgetClass "{5974944D4E272DC2}" : "{08CF3B69CB1ACBC4}UI/layouts/WidgetLibrary/Buttons/WLib_NavigationButton.layout" {
+             Name "CloseEditorButton"
+             Slot LayoutSlot "{570F04198C6F9E92}" {
+              Padding -2 -2 -2 -2
+             }
+             components {
+              SCR_NavigationButtonComponent "{5474BAC5DBCF129A}" {
+               m_sLabel "#AR-ControlsHint_Editor_EditorToggle"
+               m_sActionName "EditorToggle"
+              }
+              ButtonActionComponent "{5642EAED9B2A386E}" {
+              }
+             }
+             {
+              SizeLayoutWidgetClass "{5562AD435529FB36}" {
+               Prefab "{5562AD435529FB36}"
+               Slot ButtonWidgetSlot "{5562AD435529FB5D}" {
+                Padding 0 0 0 0
+               }
+               {
+                OverlayWidgetClass "{000000005E70868E}" {
+                 Prefab "{000000005E70868E}"
+                 {
+                  ImageWidgetClass "{0000000054A64973}" {
+                   Prefab "{0000000054A64973}"
+                   "Is Visible" 0
+                   Image ""
+                   Size 12 256
+                  }
+                  PanelWidgetClass "{5562AD426F7EB8C6}" {
+                   Prefab "{5562AD426F7EB8C6}"
+                   Slot OverlayWidgetSlot "{5562AD426F7EB8E7}" {
+                    Padding 0 0 0 0
+                   }
+                  }
+                  HorizontalLayoutWidgetClass "{00000000E3602307}" {
+                   Prefab "{00000000E3602307}"
+                   {
+                    RichTextWidgetClass "{00000000B0FD85CE}" {
+                     Prefab "{00000000B0FD85CE}"
+                     "Font Size" 16
+                     "Min Font Size" 16
+                    }
+                    RichTextWidgetClass "{00000000DB061E92}" {
+                     Prefab "{00000000DB061E92}"
+                     Slot LayoutSlot "{547AD5678196CD13}" {
+                      Padding 5 0 12 0
+                     }
+                     "Font Size" 16
+                     "Min Font Size" 16
+                     FontProperties FontProperties "{546AF489DFD25402}" {
+                      ShadowSize 10
+                      ShadowOpacity 0.7
+                     }
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  FrameWidgetClass "{5974944D4E272DC4}" {
+   Name "EndGameUI"
+   Slot FrameWidgetSlot "{5682DD73D5300311}" {
+    Anchor 0 0 1 1
+    PositionX 0
+    OffsetLeft 0
+    PositionY 0
+    OffsetTop 0
+    SizeX -1820
+    OffsetRight 0
+    SizeY -1050
+    OffsetBottom 0
+   }
+   "Is Visible" 0
+   {
+    TextWidgetClass "{5974944D4E272DC7}" {
+     Name "GameEndText"
+     Slot FrameWidgetSlot "{5682D719A930209A}" {
+      Anchor 0.5 0.5 0.5 0.5
+      PositionX 0
+      OffsetLeft 0
+      PositionY -350
+      OffsetTop -350
+      SizeX 100
+      OffsetRight -100
+      SizeY 30
+      OffsetBottom 320
+      Alignment 0.5 0.5
+      SizeToContent 1
+     }
+     Text "loc Session Ended"
+     "Font Size" 50
+     "Min Font Size" 50
+    }
+    ButtonWidgetClass "{5974944D4E272DC6}" : "{75C912A1C89BE6C2}UI/layouts/WidgetLibrary/Buttons/WLib_ButtonText.layout" {
+     Name "Button0"
+     Slot FrameWidgetSlot "{5682DD73FFEFF0AD}" {
+      Anchor 0.5 0.5 0.5 0.5
+      PositionX 0
+      OffsetLeft 0
+      PositionY -300
+      OffsetTop -300
+      SizeX 100
+      OffsetRight -100
+      SizeY 32
+      OffsetBottom 268
+      Alignment 0.5 0.5
+     }
+     "Is Visible" 0
+     components {
+      SCR_ButtonTextComponent "{5548F0143AE99095}" {
+       m_sText "loc Restart"
+      }
+     }
+     {
+     }
+    }
+   }
+  }
+ }
+}

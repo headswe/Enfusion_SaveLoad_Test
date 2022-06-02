@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{56BDD6BD5942EFAE}UI/layouts/WidgetLibrary/EditBox/TMFR_WLib_EditBox.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+ }
+}

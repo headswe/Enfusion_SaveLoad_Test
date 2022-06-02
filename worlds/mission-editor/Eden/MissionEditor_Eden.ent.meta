@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{77245A00AA1CB01A}worlds/mission-editor/Eden/MissionEditor_Eden.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

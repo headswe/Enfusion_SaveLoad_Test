@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{FDC8477E987E2EFD}UI/layouts/Editor/InfoBar/TMFR_MissionEditing_InfoBar.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+ }
+}
