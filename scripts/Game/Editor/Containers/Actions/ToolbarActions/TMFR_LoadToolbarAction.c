@@ -3,7 +3,7 @@ class TMFR_LoadToolbarAction : SCR_BaseToggleToolbarAction
 {
 	override bool IsServer()
 	{
-		return true;
+		return false;
 	}
 	
 	override bool CanBeShown(SCR_EditableEntityComponent hoveredEntity, notnull set<SCR_EditableEntityComponent> selectedEntities, vector cursorWorldPosition, int flags)
@@ -15,14 +15,13 @@ class TMFR_LoadToolbarAction : SCR_BaseToggleToolbarAction
 		return true;
 	}
 	
-	override void Perform(SCR_EditableEntityComponent hoveredEntity, notnull set<SCR_EditableEntityComponent> selectedEntities, vector cursorWorldPosition,int flags, int param = -1)
-	{		
-		TMFR_EditorUIManagerComponent comp = TMFR_EditorUIManagerComponent.GetInstance();
+	override void PerformOwner(SCR_EditableEntityComponent hoveredEntity, notnull set<SCR_EditableEntityComponent> selectedEntities, vector cursorWorldPosition, int flags, int param = -1) 
+	{
+		TMFR_UIManagerComponent comp = TMFR_UIManagerComponent.GetInstance();
 		if(!comp)
 			return;
 		comp.OpenLoadDialog();
 	}
-	
 	override void Track()
 	{
 

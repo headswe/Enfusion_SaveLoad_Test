@@ -6,9 +6,9 @@ FrameWidgetClass {
   OffsetLeft 0
   PositionY 0
   OffsetTop 0
-  SizeX -1820
+  SizeX 0
   OffsetRight 0
-  SizeY -1050
+  SizeY 0
   OffsetBottom 0
  }
  components {
@@ -16,206 +16,409 @@ FrameWidgetClass {
   }
  }
  {
-  HorizontalLayoutWidgetClass "{596E552510E8C8EE}" {
-   Name "HorizontalLayout0"
-   Slot FrameWidgetSlot "{596D750BD518A1A1}" {
+  FrameWidgetClass "{5974BD572B323297}" {
+   Name "MenuBase"
+   Slot FrameWidgetSlot "{54D8A1A69BDC4E85}" {
     Anchor 0 0 1 1
-    PositionX 1920
+    PositionX 0
     OffsetLeft 0
-    PositionY 1080
+    PositionY 0
     OffsetTop 0
-    SizeX -1820
+    SizeX 0
     OffsetRight 0
-    SizeY -1050
+    SizeY 0
     OffsetBottom 0
    }
+   Color 0 0 0 0.941
    {
-    OverlayWidgetClass "{596E552510E8C8EF}" {
-     Name "Overlay0"
-     Slot LayoutSlot "{596D750BD5162C0D}" {
-      SizeMode Fill
+    BlurWidgetClass "{5974BD572B323295}" : "{352322057FD78AE1}UI/layouts/WidgetLibrary/BaseElements/WLib_Blur.layout" {
+     Name "Blur0"
+     Slot FrameWidgetSlot "{5488B961554C8ACC}" {
+      Anchor 0 0 1 1
+      PositionX 43.304
+      OffsetLeft 0
+      PositionY 613.344
+      OffsetTop 0
+      SizeX -1920
+      OffsetRight 0
+      SizeY -1080
+      OffsetBottom 0
      }
+     Color 1 1 1 1
+     Intensity 0.8
+    }
+    ImageWidgetClass "{5974BD572B323294}" {
+     Name "Image0"
+     Slot FrameWidgetSlot "{5488B97C9D820763}" {
+      Anchor 0 0 1 1
+      PositionX 0
+      OffsetLeft 0
+      PositionY 0
+      OffsetTop 0
+      SizeX 0
+      OffsetRight 0
+      SizeY -1027.75
+      OffsetBottom 1027.75
+     }
+     "Inherit Color" 1
+     Size 32 43.3
+    }
+    VerticalLayoutWidgetClass "{5974BD572B32328B}" {
+     Name "HorizontalLayout1"
+     Slot FrameWidgetSlot "{5488B97DD3B5AB4A}" {
+      Anchor 0 0.05 0.05 0.95
+      PositionX 96
+      OffsetLeft 0
+      PositionY -54
+      OffsetTop 0
+      SizeX 4
+      OffsetRight 0
+      SizeY -942
+      OffsetBottom 0
+     }
+     "Inherit Color" 1
      {
-      ImageWidgetClass "{596E552510E8C8EC}" {
-       Name "Background"
-       Slot OverlayWidgetSlot "{56EEDE05C871C02C}" {
-        HorizontalAlign 3
-        VerticalAlign 3
+      ImageWidgetClass "{5974BD572B32328A}" {
+       Name "Image1"
+       Slot LayoutSlot "{5488B97C9D8206F1}" {
+        FillWeight 0.1
        }
-       Color 0.01 0.01 0.01 1
+       "Inherit Color" 1
+       Size 32 55.7
       }
-      VerticalLayoutWidgetClass "{596E552510E8C8ED}" {
-       Name "VerticalLayout0"
-       Slot OverlayWidgetSlot "{596D750B95B5727A}" {
-        HorizontalAlign 3
-        VerticalAlign 3
+      FrameWidgetClass "{5974BD572B323289}" {
+       Name "Frame0"
+       Slot LayoutSlot "{5488B97C9D820610}" {
+        SizeMode Fill
+       }
+      }
+     }
+    }
+    VerticalLayoutWidgetClass "{5974BD572B35D704}" {
+     Name "HorizontalLayout0"
+     Slot FrameWidgetSlot "{5488B97DD3B5AB4A}" {
+      Anchor 0.95 0.05 1 0.95
+      PositionX -1824
+      OffsetLeft 0
+      PositionY 0
+      OffsetTop 0
+      SizeX 0
+      OffsetRight 0
+      SizeY 0
+      OffsetBottom 0
+     }
+     "Inherit Color" 1
+     {
+      ImageWidgetClass "{5974BD572B35D705}" {
+       Name "Image1"
+       Slot LayoutSlot "{5488B97C9D8206F1}" {
+        FillWeight 0.1
+       }
+       "Inherit Color" 1
+       Size 32 55.7
+      }
+      FrameWidgetClass "{5974BD572B35D702}" {
+       Name "Frame0"
+       Slot LayoutSlot "{5488B97C9D820610}" {
+        SizeMode Fill
+       }
+      }
+     }
+    }
+    VerticalLayoutWidgetClass "{5974BD572B35D703}" {
+     Name "VerticalLayout0"
+     Slot FrameWidgetSlot "{5488B97C9D82063F}" {
+      Anchor 0.05 0.05 0.95 0.95
+      PositionX -96
+      OffsetLeft 0
+      PositionY -54
+      OffsetTop 0
+      SizeX -1628
+      OffsetRight 0
+      SizeY -942
+      OffsetBottom 0
+     }
+     Clipping False
+     "Inherit Color" 1
+     {
+      SizeLayoutWidgetClass "{5974BD572B35D700}" {
+       Name "SizeLayout0"
+       Slot LayoutSlot "{5488B97C9D820642}" {
+        VerticalAlign 1
+        FillWeight 0.05
+       }
+       "Inherit Color" 1
+       AllowHeightOverride 1
+       HeightOverride 56
+       {
+        OverlayWidgetClass "{5974BD572B35D701}" {
+         Name "Header"
+         Slot AlignableSlot "{54ACA2912B95AFE7}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+         }
+         "Inherit Color" 1
+         {
+          ImageWidgetClass "{5974BD572B35D70E}" {
+           Name "Image0"
+           Slot OverlayWidgetSlot "{5488B9638779B436}" {
+            HorizontalAlign 3
+            VerticalAlign 3
+           }
+           "Inherit Color" 1
+          }
+          TextWidgetClass "{5974BD572B35D70F}" : "{9D643D214767D616}UI/layouts/WidgetLibrary/TextWidgets/Text_Heading2.layout" {
+           Name "TitlePage"
+           Slot OverlayWidgetSlot "{5488B96387799BE5}" {
+            HorizontalAlign 0
+            VerticalAlign 0
+            Padding 8 0 0 0
+           }
+           Clipping False
+           Text "Save Mission"
+           "Min Font Size" 32
+          }
+         }
+        }
+       }
+      }
+      VerticalLayoutWidgetClass "{5974EA694EEC1CD8}" {
+       Name "VerticalLayout1"
+       Slot LayoutSlot "{5974EA694EEC1CFD}" {
+        Padding 0 0 0 0
+        SizeMode Fill
+        FillWeight 1
        }
        {
-        OverlayWidgetClass "{596E552510E8C8E2}" {
-         Name "Overlay0"
-         Slot LayoutSlot "{596D750B0A4D4F4B}" {
+        OverlayWidgetClass "{000000004446F260}" {
+         Prefab "{000000001094E915}"
+         Name "ContentOverlay"
+         Slot LayoutSlot "{5454881316546B14}" {
+          Padding 0 0 0 0
+          FillWeight 1
          }
          {
-          ImageWidgetClass "{596E552510EF5454}" {
-           Name "Background"
-           Slot OverlayWidgetSlot "{56EEDE05C871C02C}" {
+          SizeLayoutWidgetClass "{5974BD54785B0DB1}" {
+           Name "SizeLayout0"
+           Slot OverlayWidgetSlot "{5974BD54785B0D81}" {
             HorizontalAlign 3
             VerticalAlign 3
-            Padding 0 0 0 0
            }
-           Color 0.002 0.25 0.06 1
-          }
-          TextWidgetClass "{596E552510EF5455}" {
-           Name "Text0"
-           Slot OverlayWidgetSlot "{596D750B2DB31C9D}" {
-            HorizontalAlign 3
-            VerticalAlign 3
-            Padding 10 10 0 10
+           {
+            VerticalLayoutWidgetClass "{5974BD57390CD1F0}" {
+             Name "VerticalLayout0"
+             Slot OverlayWidgetSlot "{596D750B95B5727A}" {
+              HorizontalAlign 3
+              VerticalAlign 3
+             }
+             {
+              VerticalLayoutWidgetClass "{5974BD57390C4372}" {
+               Name "TableBody"
+               Slot LayoutSlot "{596D750A6F24FA6C}" {
+                Padding 20 10 0 10
+                SizeMode Fill
+               }
+               {
+                VerticalLayoutWidgetClass "{5974BD57390C4373}" {
+                 Name "MissionNameControl"
+                 Slot LayoutSlot "{596E5526B9A89796}" {
+                 }
+                 {
+                  TextWidgetClass "{5974BD57390C4374}" {
+                   Name "Text0"
+                   Slot LayoutSlot "{596E55253423B6B6}" {
+                   }
+                   Text "Misson name"
+                   "Font Size" 34
+                  }
+                  OverlayWidgetClass "{5974BD57390C4375}" {
+                   Name "Overlay0"
+                   Slot LayoutSlot "{596E55256EBCA7A5}" {
+                    Padding 10 10 10 10
+                   }
+                   {
+                    ImageWidgetClass "{5974BD57390C4376}" {
+                     Name "Background"
+                     Slot OverlayWidgetSlot "{56EEDE05C871C02C}" {
+                      HorizontalAlign 3
+                      VerticalAlign 3
+                     }
+                    }
+                    EditBoxWidgetClass "{5974BD57390C4377}" {
+                     Name "MissionNameEditBox"
+                     Slot OverlayWidgetSlot "{596E5526893E1CA2}" {
+                      HorizontalAlign 3
+                      VerticalAlign 3
+                      Padding 10 10 10 10
+                     }
+                     Color 0 0 0 1
+                     text "Test"
+                     "Font Size" 34
+                     "Use placeholder text" 1
+                    }
+                   }
+                  }
+                 }
+                }
+                VerticalLayoutWidgetClass "{5974BD57390C4368}" {
+                 Name "MissionFileNameControl"
+                 Slot LayoutSlot "{596E5526B9A89796}" {
+                 }
+                 {
+                  TextWidgetClass "{5974BD57390C4369}" {
+                   Name "Text0"
+                   Slot LayoutSlot "{596E55253423B6B6}" {
+                   }
+                   Text "Misson filename"
+                   "Font Size" 34
+                  }
+                  OverlayWidgetClass "{5974BD57390C436A}" {
+                   Name "Overlay0"
+                   Slot LayoutSlot "{596E55256EBCA7A5}" {
+                    Padding 10 10 10 10
+                   }
+                   {
+                    ImageWidgetClass "{5974BD57390C436B}" {
+                     Name "Background"
+                     Slot OverlayWidgetSlot "{56EEDE05C871C02C}" {
+                      HorizontalAlign 3
+                      VerticalAlign 3
+                     }
+                    }
+                    EditBoxWidgetClass "{5974BD57390C436C}" {
+                     Name "MissionFileNameEditBox"
+                     Slot OverlayWidgetSlot "{596E5526893E1CA2}" {
+                      HorizontalAlign 3
+                      VerticalAlign 3
+                      Padding 10 10 10 10
+                     }
+                     Color 0 0 0 1
+                     text "mission_name"
+                     "Font Size" 34
+                     "Use placeholder text" 1
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
            }
-           "Z Order" 33
-           Text "Save Mission"
-           "Font Size" 43
-           "Vertical Alignment" Center
-           "Line Spacing" 12
           }
          }
         }
-        VerticalLayoutWidgetClass "{596E552510EF5452}" {
-         Name "TableBody"
-         Slot LayoutSlot "{596D750A6F24FA6C}" {
-          Padding 20 0 0 0
-          SizeMode Fill
-         }
-         {
-          VerticalLayoutWidgetClass "{596E5526B9A897B1}" {
-           Name "MissionNameControl"
-           Slot LayoutSlot "{596E5526B9A89796}" {
-           }
-           {
-            TextWidgetClass "{596E55253423B64F}" {
-             Name "Text0"
-             Slot LayoutSlot "{596E55253423B6B6}" {
-             }
-             Text "Misson name"
-             "Font Size" 34
-            }
-            OverlayWidgetClass "{596E55256EBCA745}" {
-             Name "Overlay0"
-             Slot LayoutSlot "{596E55256EBCA7A5}" {
-              Padding 10 10 10 10
-             }
-             {
-              ImageWidgetClass "{596E55268CA290BF}" {
-               Name "Background"
-               Slot OverlayWidgetSlot "{56EEDE05C871C02C}" {
-                HorizontalAlign 3
-                VerticalAlign 3
-               }
-              }
-              EditBoxWidgetClass "{596E552559AE8031}" {
-               Name "MissionNameEditBox"
-               Slot OverlayWidgetSlot "{596E5526893E1CA2}" {
-                HorizontalAlign 3
-                VerticalAlign 3
-                Padding 10 10 10 10
-               }
-               Color 0 0 0 1
-               text "Test"
-               "Font Size" 34
-               "Use placeholder text" 1
-              }
-             }
-            }
-           }
-          }
-          VerticalLayoutWidgetClass "{596E5526CB7D377B}" {
-           Name "MissionFileNameControl"
-           Slot LayoutSlot "{596E5526B9A89796}" {
-           }
-           {
-            TextWidgetClass "{596E5526CB7D3774}" {
-             Name "Text0"
-             Slot LayoutSlot "{596E55253423B6B6}" {
-             }
-             Text "Misson filename"
-             "Font Size" 34
-            }
-            OverlayWidgetClass "{596E5526CB7D3775}" {
-             Name "Overlay0"
-             Slot LayoutSlot "{596E55256EBCA7A5}" {
-              Padding 10 10 10 10
-             }
-             {
-              ImageWidgetClass "{596E5526CB7D3776}" {
-               Name "Background"
-               Slot OverlayWidgetSlot "{56EEDE05C871C02C}" {
-                HorizontalAlign 3
-                VerticalAlign 3
-               }
-              }
-              EditBoxWidgetClass "{596E5526CB7D3777}" {
-               Name "MissionFileNameEditBox"
-               Slot OverlayWidgetSlot "{596E5526893E1CA2}" {
-                HorizontalAlign 3
-                VerticalAlign 3
-                Padding 10 10 10 10
-               }
-               Color 0 0 0 1
-               text "mission_name"
-               "Font Size" 34
-               "Use placeholder text" 1
-              }
-             }
-            }
-           }
-          }
-         }
-        }
-        HorizontalLayoutWidgetClass "{596E552510EF5453}" {
+       }
+      }
+      VerticalLayoutWidgetClass "{5974BD572B35D708}" {
+       Name "VerticalLayout0"
+       Slot LayoutSlot "{5488B97C9D81FC1B}" {
+        VerticalAlign 2
+        Padding 0 0 0 0
+        FillWeight 0.075
+       }
+       {
+        HorizontalLayoutWidgetClass "{5974BD572B35D709}" {
          Name "HorizontalLayout0"
-         Slot LayoutSlot "{596E000BD75FBB21}" {
-          Padding 10 10 10 10
+         Slot LayoutSlot "{54929003A731D081}" {
+          Padding 0 12 0 24
          }
-         "Fill Origin" Right
          {
-          ButtonWidgetClass "{596E552510EF544C}" {
-           Name "SaveButton"
-           Slot LayoutSlot "{596E000BEE3AF003}" {
-            Padding 20 0 0 0
+          ImageWidgetClass "{5974BD572B35D7F6}" {
+           Name "FooterSeparator"
+           Slot LayoutSlot "{54B2E1EFBA7E68F3}" {
+            SizeMode Fill
            }
-           Color 0.002 0.25 0.06 1
+           Clipping True
+           Color 0.761 0.386 0.078 1
+           Size 32 4
+          }
+          SizeLayoutWidgetClass "{5974BD572B35D7F7}" {
+           Name "BottomBarSize"
+           Slot LayoutSlot "{54B2E1ECED36835B}" {
+            Padding 16 0 0 0
+           }
+           "Is Visible" 0
+           AllowWidthOverride 1
+           WidthOverride 600
            {
-            TextWidgetClass "{596E552510EF544D}" {
-             Name "SaveButtonText"
-             Slot ButtonWidgetSlot "{596E000BFADEB3AD}" {
-              Padding 30 10 30 10
+            ImageWidgetClass "{5974BD572B35D7F4}" {
+             Name "FooterSeparator0"
+             Slot AlignableSlot "{54B2E1EFBA7E69DD}" {
+              HorizontalAlign 3
+             }
+             Clipping True
+             Color 0.761 0.386 0.078 1
+             Size 32 4
+            }
+           }
+          }
+         }
+        }
+        GridLayoutWidgetClass "{5974BD572B35D7F5}" {
+         Name "Footer"
+         Slot LayoutSlot "{5488B97C9D81FC1B}" {
+          VerticalAlign 2
+          Padding 0 0 0 0
+          FillWeight 0.06
+         }
+         ColumnFill {
+          1 1 1
+         }
+         {
+          HorizontalLayoutWidgetClass "{5974BD496F900567}" {
+           Name "Back"
+           Slot GridWidgetSlot "{5974BD496F90053F}" {
+            HorizontalAlign 0
+           }
+           {
+            ButtonWidgetClass "{5974BD572B35D7F2}" : "{08CF3B69CB1ACBC4}UI/layouts/WidgetLibrary/Buttons/WLib_NavigationButton.layout" {
+             Name "BackButton"
+             Slot LayoutSlot "{5974BD496F851C3D}" {
              }
              components {
-              TMFR_SaveMissionSaveButtonComponent "{596E55214D696C6F}" {
+              SCR_NavigationButtonComponent "{5474BAC5DBCF129A}" {
+               m_sLabel "#AR-Menu_Back"
+               m_sActionName "MenuOpen"
+              }
+              ButtonActionComponent "{5974E42C3A92F15F}" {
               }
              }
-             Text "Save"
-             "Font Size" 29
+             {
+             }
             }
            }
           }
-          ButtonWidgetClass "{596E5526FAAC8705}" {
-           Name "CloseButton0"
-           Slot LayoutSlot "{596E000BEE3AF003}" {
+          HorizontalLayoutWidgetClass "{5974BD572B35D7F3}" {
+           Name "FooterRight"
+           Slot GridWidgetSlot "{5974BD49841F2ABA}" {
+            Column 1
            }
-           Color 0.002 0.25 0.06 1
-           components {
-            TMFR_SaveMissionCloseButtonComponent "{596E55214A20B796}" {
-            }
+           "Z Order" 64
+           "Fill Origin" Right
+          }
+          HorizontalLayoutWidgetClass "{5974BD497EF39C36}" {
+           Name "Save"
+           Slot GridWidgetSlot "{5974BD497EF39C0C}" {
+            Column 3
            }
            {
-            TextWidgetClass "{596E5526FAAC8706}" {
-             Name "CloseButtonText"
-             Slot ButtonWidgetSlot "{596E000BFADEB3AD}" {
-              Padding 30 10 30 10
+            ButtonWidgetClass "{5974BD4B0B5F620A}" : "{08CF3B69CB1ACBC4}UI/layouts/WidgetLibrary/Buttons/WLib_NavigationButton.layout" {
+             Name "SaveButton"
+             Slot LayoutSlot "{5974BD497EE5E93B}" {
              }
-             Text "Close"
-             "Font Size" 29
+             components {
+              SCR_NavigationButtonComponent "{5474BAC5DBCF129A}" {
+               m_sLabel "Save"
+               m_sActionName "EditorMenuConfirm"
+              }
+              ButtonActionComponent "{5974E42C1E4639C4}" {
+               m_bActionName "EditorMenuConfirm"
+              }
+             }
+             {
+             }
             }
            }
           }

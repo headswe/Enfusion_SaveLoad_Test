@@ -1,143 +1,143 @@
 SCR_EditorManagerEntity {
- ID "59694DDF2DE9968C"
+ ID "5974945DCA0BAF2B"
  components {
-  SCR_AccessKeysEditorComponent "{59694DDF2DE99685}" {
+  SCR_AccessKeysEditorComponent "{5974945DCA0BAF2F}" {
   }
-  SCR_BudgetEditorComponent "{59694DDF2DE99692}" {
+  SCR_BudgetEditorComponent "{5974945DCA0BAF2D}" {
    m_MaxBudgets {
-    SCR_EntityBudgetValue "{59694DDF2DE99697}" {
+    SCR_EntityBudgetValue "{5974945DCA0BAF23}" {
      m_Value 10000
     }
-    SCR_EntityBudgetValue "{59694DDF2DE99694}" {
+    SCR_EntityBudgetValue "{5974945DCA0BAF20}" {
      m_BudgetType AI
      m_Value 200
     }
-    SCR_EntityBudgetValue "{59694DDF2DE996AA}" {
+    SCR_EntityBudgetValue "{5974945DCA0BAF21}" {
      m_BudgetType VEHICLES
      m_Value 50
     }
-    SCR_EntityBudgetValue "{59694DDF2DE996AB}" {
+    SCR_EntityBudgetValue "{5974945DCA0BAF26}" {
      m_BudgetType SYSTEMS
      m_Value 500
     }
    }
    m_MaxBudgetsLocal {
-    SCR_EntityBudgetValue "{59694DDF2DE996A9}" {
+    SCR_EntityBudgetValue "{5974945DCA0BAF27}" {
      m_Value 10000
     }
-    SCR_EntityBudgetValue "{59694DDF2DE9FE80}" {
+    SCR_EntityBudgetValue "{5974945DCA0BAF24}" {
      m_BudgetType AI
      m_Value 200
     }
-    SCR_EntityBudgetValue "{59694DDF2DE9FE86}" {
+    SCR_EntityBudgetValue "{5974945DCA0BAF25}" {
      m_BudgetType VEHICLES
      m_Value 50
     }
-    SCR_EntityBudgetValue "{59694DDF2DE9FE85}" {
+    SCR_EntityBudgetValue "{5974945DCA0BAF3A}" {
      m_BudgetType SYSTEMS
      m_Value 500
     }
    }
   }
-  SCR_CameraDataEditorComponent "{59694DDF2DE9FE84}" {
+  SCR_CameraDataEditorComponent "{5974945DCA0BAF3B}" {
   }
-  SCR_DebugEditorComponent "{59694DDF2DE9FE8B}" {
+  SCR_DebugEditorComponent "{5974945DCA0BEC95}" {
   }
-  SCR_HighlightedEditorComponent "{59694DDF2DE9FE8A}" {
+  SCR_HighlightedEditorComponent "{5974945DCA0BEC97}" {
   }
-  SCR_InputLayoutEditorComponent "{59694DDF2DEE0FEF}" {
+  SCR_InputLayoutEditorComponent "{5974945DCA0BEC90}" {
    m_Layout "{E40A4B5CC61E7FF2}UI/layouts/Editor/EditorToggle/EditorToggle.layout"
   }
-  SCR_MapEditorComponent "{59694DDF2DEE0FEC}" {
+  SCR_MapEditorComponent "{5974945DCA0BEC91}" {
   }
-  SCR_MenuEditorComponent "{59694DDF2DEE0FE8}" {
+  SCR_MenuEditorComponent "{5974945DCA0BEC92}" {
    m_EffectsActivate {
-    SCR_SoundEditorEffect "{59694DDF2DEE0FE9}" {
+    SCR_SoundEditorEffect "{5974945DCA0C742D}" {
      m_sSound "SOUND_E_OPEN"
     }
    }
    m_EffectsDeactivate {
-    SCR_SoundEditorEffect "{59694DDF2DEE0FF7}" {
+    SCR_SoundEditorEffect "{5974945DCA0C7423}" {
      m_sSound "SOUND_E_CLOSE"
     }
    }
   }
-  SCR_MusicEditorComponent "{59694DDF2DEE0FF0}" {
+  SCR_MusicEditorComponent "{5974945DCA0C7422}" {
   }
-  SCR_PingEditorComponent "{59694DDF2DEE0FF1}" {
+  SCR_PingEditorComponent "{5974945DCA0CC700}" {
    m_EffectsSendPingFromPlayer {
-    SCR_SoundEditorEffect "{59694DDF2DEE0FFF}" {
+    SCR_SoundEditorEffect "{5974945DCA0CC702}" {
      m_sSound "SOUND_E_PINGFROMPLAYERS"
     }
-    SCR_EntityEditorEffect "{59694DDF2DEE0FFC}" {
+    SCR_EntityEditorEffect "{5974945DCA0CC705}" {
      m_Prefab "{712601A9A89CA03C}PrefabsEditable/System/E_PingEntity.et"
      m_bNoEntities 1
      m_bReplacePrevious 0
     }
    }
    m_EffectsSendPingFromEditor {
-    SCR_SoundEditorEffect "{59694DDF2DEE0FFB}" {
+    SCR_SoundEditorEffect "{5974945DCA0CC707}" {
      m_sSound "SOUND_E_PINGTOPLAYERS"
     }
-    SCR_EntityEditorEffect "{59694DDF2DEE0FF8}" {
+    SCR_EntityEditorEffect "{5974945DCA0CF5A2}" {
      m_Prefab "{712601A9A89CA03C}PrefabsEditable/System/E_PingEntity.et"
      m_bNoEntities 1
      m_bReplacePrevious 0
     }
    }
    m_EffectsSendPingUrgentFromPlayer {
-    SCR_SoundEditorEffect "{59694DDF2DEE0F86}" {
+    SCR_SoundEditorEffect "{5974945DCA0CF5DC}" {
      m_sSound "SOUND_E_PINGFROMPLAYERS"
     }
-    SCR_UIEditorEffect "{59694DDF2DEE0F87}" {
+    SCR_UIEditorEffect "{5974945DCA0CF5DD}" {
      m_Layout "{5ABC73B465D63072}UI/layouts/Editor/Ping/Ping_PlayerUrgent.layout"
     }
    }
    m_EffectsSendPingUrgentFromEditor {
-    SCR_EntityEditorEffect "{59694DDF2DEE0F84}" {
+    SCR_EntityEditorEffect "{5974945DCA0CF5DE}" {
      m_Prefab "{A8FFCD3F3697D77F}Prefabs/Editor/Lightning/LightningStrike.et"
     }
    }
    m_EffectsReceivePingFromPlayer {
-    SCR_SoundEditorEffect "{59694DDF2DEE0F82}" {
+    SCR_SoundEditorEffect "{5974945DCA0CF5D8}" {
      m_sSound "SOUND_E_PINGFROMPLAYERS"
     }
-    SCR_EntityEditorEffect "{59694DDF2DEE0F83}" {
+    SCR_EntityEditorEffect "{5974945DCA0D4EFD}" {
      m_Prefab "{712601A9A89CA03C}PrefabsEditable/System/E_PingEntity.et"
      m_bNoEntities 1
      m_bReplacePrevious 0
     }
    }
    m_EffectsReceivePingFromEditor {
-    SCR_SoundEditorEffect "{59694DDF2DEE0F80}" {
+    SCR_SoundEditorEffect "{5974945DCA0D4EFF}" {
      m_sSound "SOUND_E_PINGTOPLAYERS"
     }
-    SCR_EntityEditorEffect "{59694DDF2DEE0F81}" {
+    SCR_EntityEditorEffect "{5974945DCA0DC03D}" {
      m_Prefab "{712601A9A89CA03C}PrefabsEditable/System/E_PingEntity.et"
      m_bNoEntities 1
      m_bReplacePrevious 0
     }
    }
    m_EffectsReceivePingUrgentFromPlayer {
-    SCR_SoundEditorEffect "{59694DDF2DEE0F8F}" {
+    SCR_SoundEditorEffect "{5974945DCA0DC03C}" {
      m_sSound "SOUND_E_PINGFROMPLAYERS"
     }
    }
    m_EffectsReceivePingUrgentFromEditor {
-    SCR_EntityEditorEffect "{59694DDF2DEE0F8C}" {
+    SCR_EntityEditorEffect "{5974945DCA0DC032}" {
      m_Prefab "{A8FFCD3F3697D77F}Prefabs/Editor/Lightning/LightningStrike.et"
     }
    }
   }
-  SCR_PlayerDelegateEditorComponent "{59694DDF2DEE0F8D}" {
+  SCR_PlayerDelegateEditorComponent "{5974945DCA0DC031}" {
    m_PlayerDelegatePrefab "{A788190C069077B8}PrefabsEditable/System/E_PlayerDelegate.et"
   }
-  SCR_PlayersManagerEditorComponent "{59694DDF2DEE0F8A}" {
+  SCR_PlayersManagerEditorComponent "{5974945DCA0DC030}" {
    m_DefaultPlayer "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
   }
-  SCR_PrefabsCacheEditorComponent "{59694DDF2DEE0F8B}" {
+  SCR_PrefabsCacheEditorComponent "{5974945DCA0E13C8}" {
   }
-  RplComponent "{59694DDF2DEE0F88}" {
+  RplComponent "{5974945DCA0E13CF}" {
    Streamable Disabled
   }
  }

@@ -6,7 +6,6 @@ class TMFR_AIDisablerComponentClass: ScriptComponentClass
 //------------------------------------------------------------------------------------------------
 class TMFR_AIDisablerComponent : ScriptComponent
 {
-	// rewrite if condition below if adding new lines!!!
 	[Attribute( defvalue: "1", uiwidget: UIWidgets.CheckBox, desc: "Disable AI on spawn" )]
 	bool m_DisableAI;
 	protected SCR_AIWorld m_AIWorld;

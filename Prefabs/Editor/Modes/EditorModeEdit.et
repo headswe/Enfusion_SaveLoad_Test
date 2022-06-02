@@ -1,32 +1,10 @@
 SCR_EditorModeEntity : "{E56F54E533ACE527}Prefabs/Editor/Modes/EditorModeBase.et" {
  ID "54F0A77282A3AA3B"
  components {
-  SCR_ToolbarActionsEditorComponent "{52B49285C6A78700}" {
-   m_ActionsLists {
-    SCR_EditorActionList "{54B2AA70E13C3BC0}" {
-     m_Actions {
-      TMFR_SaveToolbarAction "{59694DDB850615F0}" {
-       m_Info SCR_UIInfo "{59694DDB9B546B5A}" {
-        Name "Save"
-        Icon "{FC214728C4CBF967}UI/Textures/Editor/Toolbar/ToolbarAction_SessionSave.edds"
-       }
-       m_ActionGroup ACTION
-       m_iOrder 4
-      }
-      TMFR_LoadToolbarAction "{59694DD4830F0BB0}" {
-       m_Info SCR_UIInfo "{59694DD499E13F12}" {
-        Name "Load"
-        Description "Load"
-        Icon "{862E4E782F59D534}UI/Textures/Editor/Toolbar/ToolbarAction_SessionLoad.edds"
-       }
-       m_ActionGroup ACTION
-       m_iOrder 5
-      }
-     }
-    }
-   }
+  SCR_MenuLayoutEditorComponent "{513C8B62E21116C7}" {
+   m_Layout "{CD14D67DA043C6DB}UI/layouts/Editor/Modes/TMFR_Mode_MissionEditor.layout"
   }
-  TMFR_EditorUIManagerComponent "{596D4EFE43F2ED8D}" {
+  TMFR_UIManagerComponent "{597494480361E770}" {
   }
  }
 }
